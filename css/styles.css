@@ -149,7 +149,7 @@ h1 {
 
 h2 {
     font-size: 3.125rem;
-    line-height: 4.063rem;
+    line-height: 4.063rem;    
 }
 
 h3 {
@@ -322,6 +322,10 @@ header .full-screen {
   color: #c8c8c8;
 }
 
+header .only-logo {
+    text-align: left;
+}
+
 header .only-logo .navbar {
     background: none;
     padding: 60px;
@@ -355,9 +359,16 @@ header .phone-image img {
     width: 100%;
 }
 
-header .intro-section .intro {
-    color: #ffffff;
+header .intro-section .intro-title {
+    color: #ffffff;    
+    margin-bottom: 0px;
+}
+header .intro-section .intro-subtitle {
+    color: #ffffff;    
+    margin-top: 0px;
     margin-bottom: 36px;
+    font-family: inherit;
+    font-weight: 300;
 }
 
 header .intro-section h5 {
@@ -480,6 +491,25 @@ header .intro-section .buttons {
 .app-brief .left-align .feature-list li i {
     margin-right: 10px;
     vertical-align: inherit;
+}
+
+
+/*---------------------------------------
+   SECTION:  NEWS
+-----------------------------------------*/
+.news .container p {
+    margin-top: 0;
+}
+
+.news .container strong{
+    color: #0196a7;
+    font-weight: 300;    
+}
+
+.news .container h5{
+    color: #0196a7;
+    font-weight: 300;
+    margin-top: 20px;
 }
 
 
