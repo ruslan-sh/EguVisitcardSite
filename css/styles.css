@@ -114,7 +114,7 @@ li {
 
 
 /*---------------------------------------
-   Typography                
+   Typography
 -----------------------------------------*/
 
 /* FONT FACE LOADER */
@@ -127,7 +127,7 @@ li {
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
- 
+
     @font-face {
         font-family: 'Lane';
         src: url('../fonts/lanenar_Lane.svg#Lane') format('svg');
@@ -149,7 +149,7 @@ h1 {
 
 h2 {
     font-size: 3.125rem;
-    line-height: 4.063rem;    
+    line-height: 4.063rem;
 }
 
 h3 {
@@ -170,7 +170,7 @@ h5 {
 }
 
 /*---------------------------------------
-   CUSTOM BUTTON              
+   CUSTOM BUTTON
 -----------------------------------------*/
 
 .standard-button,
@@ -202,7 +202,7 @@ h5 {
 
 
 /*---------------------------------------
-   TEXTS AND BG               
+   TEXTS AND BG
 -----------------------------------------*/
 
 .white-text {
@@ -219,7 +219,7 @@ h5 {
 
 
 /*---------------------------------------
-   SECTIONS          
+   SECTIONS
 -----------------------------------------*/
 
 .section-header {
@@ -239,7 +239,7 @@ h5 {
 }
 
 /*---------------------------------------
-   LINES          
+   LINES
 -----------------------------------------*/
 
 .colored-line {
@@ -267,12 +267,12 @@ h5 {
 
 /*---------------------------------------
 =========================================
- **   SECTION STYLES                
+ **   SECTION STYLES
 =========================================
 -----------------------------------------*/
 
 /*---------------------------------------
-   SECTION:  HOME                 
+   SECTION:  HOME
 -----------------------------------------*/
 
 header {
@@ -360,11 +360,11 @@ header .phone-image img {
 }
 
 header .intro-section .intro-title {
-    color: #ffffff;    
+    color: #ffffff;
     margin-bottom: 0px;
 }
 header .intro-section .intro-subtitle {
-    color: #ffffff;    
+    color: #ffffff;
     margin-top: 0px;
     margin-bottom: 36px;
     font-family: inherit;
@@ -380,7 +380,7 @@ header .intro-section .buttons {
 }
 
 /*---------------------------------------
-   SECTION:  FEATURES                 
+   SECTION:  FEATURES
 -----------------------------------------*/
 
 .features {
@@ -447,7 +447,7 @@ header .intro-section .buttons {
 
 
 /*---------------------------------------
-   SECTION:  BRIEF                 
+   SECTION:  BRIEF
 -----------------------------------------*/
 
 .app-brief {
@@ -503,7 +503,7 @@ header .intro-section .buttons {
 
 .news .container strong{
     color: #0196a7;
-    font-weight: 300;    
+    font-weight: 300;
 }
 
 .news .container h5{
@@ -531,7 +531,7 @@ object {
     background: transparent !important;
     margin: auto;
     margin-bottom: 50px;
-    margin-top: 40px; 
+    margin-top: 40px;
 }
 
 .video {
@@ -540,7 +540,7 @@ object {
 
 
 /*---------------------------------------
-   SECTION:  TESTIMONIALS                 
+   SECTION:  TESTIMONIALS
 -----------------------------------------*/
 .testimonials {
     background: url(../images/bg-2.jpg) no-repeat center fixed;
@@ -609,7 +609,7 @@ object {
 
 
 /*---------------------------------------
-   SECTION:  SERVICES           
+   SECTION:  SERVICES
 -----------------------------------------*/
 
 .services {
@@ -633,7 +633,7 @@ object {
 
 
 /*---------------------------------------
-   SECTION:  SCREENSHOTS 
+   SECTION:  SCREENSHOTS
 -----------------------------------------*/
 
 .screenshots {
@@ -658,16 +658,16 @@ object {
 
 
 /*---------------------------------------
-   SECTION:  PACKAGES | Added on version 1.7      
+   SECTION:  CMDRS
 -----------------------------------------*/
 
-.packages {
+.cmdrs {
     padding-top: 80px;
     padding-bottom: 60px;
     background: #222222;
 }
 
-.single-package {
+.single-cmdr {
     background: #161616;
     overflow: auto;
     border: 0px solid #161616;
@@ -675,44 +675,44 @@ object {
     margin-bottom: 60px;
 }
 
-.single-package .price {
+.single-cmdr .price {
     background: #222222;
 
 }
-.single-package .color-bg {
+.single-cmdr .color-bg {
     background-color: !important;
 }
-.single-package .price h2 {
+.single-cmdr .price h2 {
     color: #FFFFFF;
 }
-.single-package .price .sign {
+.single-cmdr .price .sign {
     vertical-align: super;
     font-size: 20px;
 }
 
-.single-package .price .month {
+.single-cmdr .price .month {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
 
-.single-package .package-feature {
+.single-cmdr .package-feature {
   margin-top: 25px;
   margin-bottom: 25px;
 }
 
-.single-package .package-feature > li {
+.single-cmdr .package-feature > li {
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
-.single-package .package-feature > li > span {
+.single-cmdr .package-feature > li > span {
   margin-right: 7px;
 }
 
 
 /*---------------------------------------
-   SECTION:  DOWNLOAD                 
+   SECTION:  DOWNLOAD
 -----------------------------------------*/
 
 .download {
@@ -745,7 +745,7 @@ object {
     border: 2px solid #FFF;
 }
 
-.download .subscription-form .input-box:focus, 
+.download .subscription-form .input-box:focus,
 .download .subscription-form .input-box:active {
     color: #000;
     font-weight: 400;
@@ -762,7 +762,7 @@ object {
 
 
 /*---------------------------------------
-   SECTION:  FOOTER                
+   SECTION:  FOOTER
 -----------------------------------------*/
 
 footer .contact-box {
