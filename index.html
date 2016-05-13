@@ -1,144 +1,668 @@
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<!doctype html>
+<html lang="en">
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="description" content="HTTrack is an easy-to-use website mirror utility. It allows you to download a World Wide website from the Internet to a local directory,building recursively all structures, getting html, images, and other files from the server to your computer. Links are rebuiltrelatively so that you can freely browse to the local site (works with any browser). You can mirror several sites together so that you can jump from one toanother. You can, also, update an existing mirror site, or resume an interrupted download. The robot is fully configurable, with an integrated help" />
-	<meta name="keywords" content="httrack, HTTRACK, HTTrack, winhttrack, WINHTTRACK, WinHTTrack, offline browser, web mirror utility, aspirateur web, surf offline, web capture, www mirror utility, browse offline, local  site builder, website mirroring, aspirateur www, internet grabber, capture de site web, internet tool, hors connexion, unix, dos, windows 95, windows 98, solaris, ibm580, AIX 4.0, HTS, HTGet, web aspirator, web aspirateur, libre, GPL, GNU, free software" />
-	<title>Local index - HTTrack Website Copier</title>
-  <!-- Mirror and index made by HTTrack Website Copier/3.48-22 [XR&CO'2014] -->
-	<style type="text/css">
-	<!--
+<meta charset="UTF-8">
+<meta name="description" content="EG Union - cообщество пилотов во вселенной Elite: Dangerous">
+<meta name="keywords" content="EG Union, EGU, Elite, Dangerous, игра, фракция, элита, eg, elite-games, сообщество, пилоты, команда, общество,">
+<meta name="author" content="Victor">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-body {
-	margin: 0;  padding: 0;  margin-bottom: 15px;  margin-top: 8px;
-	background: #77b;
-}
-body, td {
-	font: 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
-	}
+<!-- SITE TITLE -->
+<title>Добро пожаловать в EG Union - сообщество пилотов во вселенной Elite: Dangerous</title>
 
-#subTitle {
-	background: #000;  color: #fff;  padding: 4px;  font-weight: bold; 
-	}
+<!-- =========================
+      FAV AND TOUCH ICONS  
+============================== -->
+<link rel="icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 
-#siteNavigation a, #siteNavigation .current {
-	font-weight: bold;  color: #448;
-	}
-#siteNavigation a:link    { text-decoration: none; }
-#siteNavigation a:visited { text-decoration: none; }
+<!-- =========================
+     STYLESHEETS   
+============================== -->
+<!-- BOOTSTRAP -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
 
-#siteNavigation .current { background-color: #ccd; }
+<!-- FONT ICONS -->
+<link rel="stylesheet" href="assets/elegant-icons/style.css">
+<link rel="stylesheet" href="assets/app-icons/styles.css">
+<!--[if lte IE 7]><script src="lte-ie7.js"></script><![endif]-->
 
-#siteNavigation a:hover   { text-decoration: none;  background-color: #fff;  color: #000; }
-#siteNavigation a:active  { text-decoration: none;  background-color: #ccc; }
+<!-- WEB FONTS -->
+<link href='http://fonts.googleapis.com/css?family=Roboto:100,300,100italic,400,300italic' rel='stylesheet' type='text/css'>
 
+<!-- CAROUSEL AND LIGHTBOX -->
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/nivo-lightbox.css">
+<link rel="stylesheet" href="css/nivo_themes/default/default.css">
 
-a:link    { text-decoration: underline;  color: #00f; }
-a:visited { text-decoration: underline;  color: #000; }
-a:hover   { text-decoration: underline;  color: #c00; }
-a:active  { text-decoration: underline; }
+<!-- ANIMATIONS -->
+<link rel="stylesheet" href="css/animate.min.css">
 
-#pageContent {
-	clear: both;
-	border-bottom: 6px solid #000;
-	padding: 10px;  padding-top: 20px;
-	line-height: 1.65em;
-	background-image: url(backblue.gif);
-	background-repeat: no-repeat;
-	background-position: top right;
-	}
+<!-- CUSTOM STYLESHEETS -->
+<link rel="stylesheet" href="css/styles.css">
 
-#pageContent, #siteNavigation {
-	background-color: #ccd;
-	}
+<!-- COLORS -->
+<link rel="stylesheet" href="css/colors/blue-munsell.css"> <!-- DEFAULT COLOR/ CURRENTLY USING -->
+<!-- <link rel="stylesheet" href="css/colors/red.css"> --> 
+<!-- <link rel="stylesheet" href="css/colors/green.css"> --> 
+<!-- <link rel="stylesheet" href="css/colors/purple.css"> --> 
+<!-- <link rel="stylesheet" href="css/colors/orange.css"> --> 
+<!-- <link rel="stylesheet" href="css/colors/blue-munsell.css"> --> 
+<!-- <link rel="stylesheet" href="css/colors/slate.css"> --> 
+<!-- <link rel="stylesheet" href="css/colors/yellow.css"> -->
 
-
-.imgLeft  { float: left;   margin-right: 10px;  margin-bottom: 10px; }
-.imgRight { float: right;  margin-left: 10px;   margin-bottom: 10px; }
-
-hr { height: 1px;  color: #000;  background-color: #000;  margin-bottom: 15px; }
-
-h1 { margin: 0;  font-weight: bold;  font-size: 2em; }
-h2 { margin: 0;  font-weight: bold;  font-size: 1.6em; }
-h3 { margin: 0;  font-weight: bold;  font-size: 1.3em; }
-h4 { margin: 0;  font-weight: bold;  font-size: 1.18em; }
-
-.blak { background-color: #000; }
-.hide { display: none; }
-.tableWidth { min-width: 400px; }
-
-.tblRegular       { border-collapse: collapse; }
-.tblRegular td    { padding: 6px;  background-image: url(fade.gif);  border: 2px solid #99c; }
-.tblHeaderColor, .tblHeaderColor td { background: #99c; }
-.tblNoBorder td   { border: 0; }
+<!-- RESPONSIVE FIXES -->
+<link rel="stylesheet" href="css/responsive.css">
 
 
-// -->
-</style>
+<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<script src="js/respond.min.js"></script>
+<![endif]-->
+
+<!-- JQUERY -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 </head>
 
-<table width="76%" border="0" align="center" cellspacing="0" cellpadding="3" class="tableWidth">
-	<tr>
-	<td id="subTitle">HTTrack Website Copier - Open Source offline browser</td>
-	</tr>
-</table>
-<table width="76%" border="0" align="center" cellspacing="0" cellpadding="0" class="tableWidth">
-<tr class="blak">
-<td>
-	<table width="100%" border="0" align="center" cellspacing="1" cellpadding="0">
-	<tr>
-	<td colspan="6"> 
-		<table width="100%" border="0" align="center" cellspacing="0" cellpadding="10">
-		<tr> 
-		<td id="pageContent"> 
-<!-- ==================== End prologue ==================== -->
+<body>
+<!-- =========================
+     PRE LOADER       
+============================== -->
+<div class="preloader">
+  <div class="status">&nbsp;</div>
+</div>
 
-	<meta name="generator" content="HTTrack Website Copier/3.x">
-	<TITLE>Local index - HTTrack</TITLE>
-</HEAD>
-<BODY>
-<H1 ALIGN=Center>Index of locally available sites:</H1>
-	<TABLE BORDER="0" WIDTH="100%" CELLSPACING="1" CELLPADDING="0">
-		<TR>
-			<TD BACKGROUND="fade.gif">
-				&middot;
-					<A HREF="egu.space/index.html">
-						egu.space/index.html
-					</A>		
-			</TD>
-		</TR>
-	</TABLE>
-	<BR>
-	<BR>
-	<BR>
-  	<H6 ALIGN="RIGHT">
-	<I>Mirror and index made by HTTrack Website Copier [XR&amp;CO'2008]</I>
-	</H6>
-	<!-- Mirror and index made by HTTrack Website Copier/3.48-22 [XR&CO'2014] -->
-	<!-- Thanks for using HTTrack Website Copier! -->
-	<meta HTTP-EQUIV="Refresh" CONTENT="0; URL=egu.space/index.html">
+<!-- =========================
+     HEADER   
+============================== -->
+<header class="header" data-stellar-background-ratio="0.5" id="home">
+
+<!-- COLOR OVER IMAGE -->
+<div class="color-overlay"> <!-- To make header full screen. Use .full-screen class with color overlay. Example: <div class="color-overlay full-screen">  -->
+	
+	<!-- STICKY NAVIGATION -->	
+	<div class="navbar navbar-inverse bs-docs-nav navbar-fixed-top sticky-navigation">
+		<div class="container">
+			<div class="navbar-header">
+				
+				<!-- LOGO ON STICKY NAV BAR -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#kane-navigation">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+
+				<a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+				
+			</div>
+			
+			<!-- NAVIGATION LINKS -->
+			<div class="navbar-collapse collapse" id="kane-navigation">
+				<ul class="nav navbar-nav navbar-right main-navigation">
+					<li><a href="#home">Главная</a></li>
+					<li><a href="#about">О нас</a></li>
+					<li><a href="#features">Преимущества EGU</a></li>
+					<li><a href="#news">Новости</a></li>
+					<li><a href="#cmdrs">Пилоты EG Pilots</a></li>
+					<li><a href="#download">Ссылки</a></li>
+				</ul>
+			</div>
+		</div> <!-- /END CONTAINER -->
+	</div> <!-- /END STICKY NAVIGATION -->
+	
+	
+	<!-- CONTAINER -->
+	<div class="container">
+		<div class="row home-contents">
+			<div class="col-md-6 col-sm-6">				
+				<!-- ONLY LOGO ON HEADER -->
+				<div class="only-logo">
+					<div class="navbar">
+						<div class="navbar-header">
+							<img src="images/logo.png" alt="">
+						</div>
+					</div>
+				</div> <!-- /END ONLY LOGO ON HEADER -->
+				<!-- HEADING AND BUTTONS -->
+				<div class="intro-section">
+					
+					<!-- WELCOM MESSAGE -->
+					<h1 class="intro-title">EG UNION<br /></h1>
+					<h2 class="intro-subtitle">Свобода среди звезд!</h2>
+					<h3>Добро пожаловать на страницу фракции EG Union сообщества пилотов EG Pilots</h3>				
+										
+					<!-- BUTTON -->
+					<div class="buttons" id="icon_chat_alt">						
+						<a href="http://www.elite-games.ru/conference/viewtopic.php?t=63739" class="btn btn-default btn-lg standard-button"><i class="icon_chat_alt"></i>Вступить в EG Pilots</a>						
+					</div>
+					<!-- /END BUTTONS -->
+				</div>
+				<!-- /END HEADNING AND BUTTONS -->				
+			</div>	
+			
+			<div class="col-md-6 col-sm-6 hidden-xs">
+				<!-- PHONE IMAGE WILL BE HIDDEN IN TABLET PORTRAIT AND MOBILE-->
+			    <div class="phone-image">
+			    	<img src="images/2-iphone-right.png" class="img-responsive" alt="">
+			    </div>			 
+		    	<div class="video-container">
+					<div class="video">					
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/Sa_U91zzYQY" frameborder="0" allowfullscreen></iframe>
+					</div>					
+				</div>			     
+			</div>
+			
+		</div>
+		<!-- /END ROW -->
+		
+	</div>
+	<!-- /END CONTAINER -->
+</div>
+<!-- /END COLOR OVERLAY -->
+</header>
+<!-- /END HEADER -->
+
+<!-- =========================
+     ABOUT 
+============================== -->
+<section class="features" id="about">
+
+<div class="container">
+	
+	<!-- SECTION HEADER -->
+	<div class="section-header wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
+		
+		<!-- SECTION TITLE -->
+		<h2 class="white-text">О нас</h2>
+		<div class="colored-line">
+		</div>
+		<div class="section-description">
+			EG Pilots - сообщество вольных пилотов в мире игры Elite: Dangerous.<br /> Нас объединяет любовь ко всему связанному с космосом и конечно к играм-космосимуляторам.<br /> Мы занимаемся развитием именной фракции EG UNION, стремимся сделать её одной из Галактических Сил и добиться доминирования в Галактике	 
+		</div>
+		<div class="colored-line">
+		</div>
+	</div>
+	<!-- /END SECTION HEADER -->	
+	
+	<div class="row">
+		
+		<!-- FEATURES LEFT -->
+		<div class="col-md-4 col-sm-4 features-left wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+			
+			<!-- FEATURE -->
+			<div class="feature">
+				
+				<!-- ICON -->
+				<div class="icon-container">
+					<div class="icon">
+						<i class="icon_balance"></i>
+					</div>
+				</div>
+				
+				<!-- FEATURE HEADING AND DESCRIPTION -->
+				<div class="fetaure-details">
+					<h4 class="main-color">Мы - торговцы</h4>
+					<p>
+						  В EG Union нашли пристанище сотни звездных торговцев со всех уголков обитаемой галактики. Удачное расположение на границе Сил делает наши системы привлекательными для предпринимателей всех уровней. Присоединяйся и мы покажем  тебе самые выгодные и безопасные торговые маршруты.
+					</p>
+				</div>
+				
+			</div>
+			<!-- /END SINGLE FEATURE -->
+			
+			<!-- FEATURE -->
+			<div class="feature">
+				
+				<!-- ICON -->
+				<div class="icon-container">
+					<div class="icon">
+						<i class="icon_globe-2"></i>
+					</div>
+				</div>
+				
+				<!-- FEATURE HEADING AND DESCRIPTION -->
+				<div class="fetaure-details">
+					<h4 class="main-color">Мы - исследователи</h4>
+					<p>
+						 Каждый день десятки кораблей отправляются из нашей системы в неизведанные уголки вселенной. Присоединяйся к экспедициям, встреться с нашими пилотами за тысячи световых лет, впиши своё имя в зал славы первооткрывателей! Ad Astra, CMDR!
+					</p>
+				</div>
+				
+			</div>
+			<!-- /END SINGLE FEATURE -->
+			
+			<!-- FEATURE -->
+			<div class="feature">
+				
+				<!-- ICON -->
+				<div class="icon-container">
+					<div class="icon">
+						<i class="icon_house_alt"></i>
+					</div>
+				</div>
+				
+				<!-- FEATURE HEADING AND DESCRIPTION -->
+				<div class="fetaure-details">
+					<h4 class="main-color">Мы - строители</h4>
+					<p>
+						 Мы совместно строим наше будущее! Мы проводим экспансии в ближайшие системы и неуклонно расширяем свое влияние. Мы стараемся контролировать все объекты в принадлежащих нам системах. Под руководством  нашего мудрого Диктатора мы строим лучший мир!  
+					</p>
+				</div>
+				
+			</div>
+			<!-- /END SINGLE FEATURE -->
+			
+		</div>
+		<!-- /END FEATURES LEFT -->
+		
+		<!-- PHONE IMAGE -->
+		<div class="col-md-4 col-sm-4">
+			<div class="phone-image wow bounceIn animated" data-wow-offset="120" data-wow-duration="1.5s">
+				<img src="images/single-iphone.png" alt="">
+			</div>
+		</div>
+		
+		<!-- FEATURES RIGHT -->
+		<div class="col-md-4 col-sm-4 features-right wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+			
+			<!-- FEATURE -->
+			<div class="feature">
+				
+				<!-- ICON -->
+				<div class="icon-container">
+					<div class="icon">
+						<i class="icon_genius"></i>
+					</div>
+				</div>
+				
+				<!-- FEATURE HEADING AND DESCRIPTION -->
+				<div class="fetaure-details">
+					<h4 class="main-color">Мы - воины</h4>
+					<p>
+						 Наша история это история войны. Войны с непрошеными гостями, войны за свою независимость, войны за свое будущее. Из этих войн мы вышли закаленными солдатами, готовыми по первому зову нашего вождя, стать единым флотом, сокрушающем всё на своем пути. Присоединяйся сейчас и мы дадим тебе самое главное - цель! Цель на войне и цель в жизни!  
+					</p>
+				</div>
+				
+			</div>
+			<!-- /END SINGLE FEATURE -->
+			
+			<!-- FEATURE -->
+			<div class="feature">
+				
+				<!-- ICON -->
+				<div class="icon-container">
+					<div class="icon">
+						<i class="icon_currency"></i>
+					</div>
+				</div>
+				
+				<!-- FEATURE HEADING AND DESCRIPTION -->
+				<div class="fetaure-details">
+					<h4 class="main-color">Мы - охотники</h4>
+					<p>
+						 Положение наших систем делает их излюбленным местом обитания пиратов, контрабандистов и охотников за головами. Любишь кураж и звонкую монету - тебе точно к нам! Мы никогда не были против незаконной торговли. Мы всегда поддержим любого баунтихантера. Если ты пират - мы всегда тебе рады, особенно если за тебя назначена большая награда ;)     
+					</p>
+				</div>
+				
+			</div>
+			
+			<!-- /END SINGLE FEATURE -->
+			
+			<!-- FEATURE -->
+			<div class="feature">
+				
+				<!-- ICON -->
+				<div class="icon-container">
+					<div class="icon">
+						<i class="icon_lifesaver"></i>
+					</div>
+				</div>
+				
+				<!-- FEATURE HEADING AND DESCRIPTION -->
+				<div class="fetaure-details">
+					<h4 class="main-color">Мы - защитники</h4>
+					<p>
+						 Любой присоединившийся к фракции EG Union - может рассчитывать на  нашу поддержку.  Мы обеспечиваем защиту и поддержку во всех наших системах, а так же на расстоянии 30 световых лет вокруг. Мы выдвигаемся по первому зову к пилотам попавшим в "неприятную" ситуацию. Своих не бросаем! Никогда!
+					</p>
+				</div>
+				
+			</div>
+			<!-- /END SINGLE FEATURE -->
+			
+		</div>
+		<!-- /END FEATURES RIGHT -->
+		
+	</div>
+	<!-- /END ROW -->
+	
+</div>
+<!-- /END CONTAINER -->
+
+</section>
+<!-- /END ABOUT SECTION -->
 
 
-<!-- ==================== Start epilogue ==================== -->
-		</td>
-		</tr>
-		</table>
-	</td>
-	</tr>
-	</table>
-</td>
-</tr>
-</table>
+<!-- =========================
+    FEATURES SECTION 
+============================== -->
+<section class="app-brief deep-dark-bg" id="features">
 
-<table width="76%" border="0" align="center" valign="bottom" cellspacing="0" cellpadding="0">
-	<tr>
-	<td id="footer"><small>&copy; 2008 Xavier Roche & other contributors - Web Design: Leto Kauler.</small></td>
-	</tr>
-</table>
+<div class="container">
+	
+	<div class="row">
+		
+		<!-- RIGHT SIDE WITH BRIEF -->
+		<div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+			
+			<!-- SECTION TITLE -->
+			<h2 class="white-text">Преимущества EG UNION</h2>
+			
+			<div class="colored-line-left">
+			</div>
+			
+			<!-- FEATURE LIST -->
+			<ul class="feature-list">
+				<li><i class="icon_check_alt2"></i> Более 200 пилотов объединенных одной целью. Это весело!</li>
+				<li><i class="icon_check_alt2"></i> Разнообразные задачи от командования фракцией</li>
+				<li><i class="icon_check_alt2"></i> Игра в Соло и Опен режимах</li>
+				<li><i class="icon_check_alt2"></i> Всевозможные ивенты</li>
+				<li><i class="icon_check_alt2"></i> Совместные полеты и сражения</li>
+				<li><i class="icon_check_alt2"></i> Помощь по игре</li>
+				<li><i class="icon_check_alt2"></i> Возможность развития для каждого участника</li>
+			</ul>			
+		</div>
+		<!-- /END RIGHT BRIEF -->
+		
+	</div>
+	<!-- /END ROW -->
+	
+</div>
+<!-- /END CONTAINER -->
+
+</section>
+<!-- /END SECTION -->
+
+
+<!-- =========================
+    NEWS
+============================== -->
+<section class="app-brief news" id="news">
+	
+	<div class="container">
+		<div class="row">
+		<div  class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+			<h2 class="white-text">Новости EG UNION</h2>
+			<div class="colored-line-left"></div>		
+		</div>
+		</div>		
+		
+		<div class="row">
+			<div class="col-md-6 left-align">
+				<h3 class="white-text">Хроники Эвриалы</h3>
+				
+				<p><strong>14.04.3302:</strong>
+				“По нашим данным сбежавшие наемники Mamaragan Coalition 
+				занялись незаконной деятельностью в этом регионе космоса,
+				в связи с чем EG Union вводит режим изоляции на всей
+				подконтрольной ей территории для обеспечения порядка”
+				- рассказал пресс-секретарь EGU.</p> 
+				
+				<p><strong>12.04.3302:</strong>
+				Адмирал Лин Фей уведомила, что силы Первого флота захватили
+				аванпост Padalka Orbital. Части сил наемников Mamaragan
+				Coalition удалось скрыться.</p>
+				
+				<p><strong>10.04.3302:</strong>
+				Стало известно, что Первый флот смог разбить силы Mamaragan
+				Coalition у Mamaragan A 1. FNS Trander с незначительными
+				повреждениями покинул систему.</p>
+				
+				<p><strong>09.04.3302:</strong>
+				Поступают сообщения о том, что противостояние в системе
+				Mamaragan вновь разгорается. Сегодня силы Mamaragan Coalition
+				при поддержке FNS Trander попытались приблизиться к Wolf
+				Platform, однако были перехвачены силами EG Union.</p>
+				
+				<p><strong>02.04.3302:</strong>
+				Сообщается, что в системе Mamaragan в противостоянии между
+				Mamaragan Coalition и EG Union наступило затишье. Происходят
+				небольшие стычки на границе контролируемых сторонами
+				территорий.</p>
+				
+				<p><strong>31.03.3302:</strong>
+				Адмирал Лин Фей сообщила, что гарнизон станции Wolf Platform
+				сдался без боя.</p>
+
+				<p><strong>30.03.3302:</strong>
+				Стало известно, что Первый флот уничтожил силы Mamaragan
+				Coalition в районе станции Wolf Platform. Оставшиеся силы
+				Coalition отступили к NN 3019 B (Mamaragan B) и аванпосту
+				Padalka Orbital.</p>
+
+				<p><strong>29.03.3302:</strong>
+ 				Как сообщают анонимные высокопоставленные чиновники федерации
+ 				FNS Neptune, несмотря на тяжелые повреждения, смог покинуть
+ 				поле боя в системе Mamaragan и совершил переход в другую
+ 				систему.</p>
+
+				<p><strong>28.03.3302:</strong>
+				Поступают сообщения о боевых столкновениях сил EG Union с
+				силами Mamaragan Coalition в окрестностях главной звезды
+				системы. Обе стороны обвиняют друг друга в начале
+				конфликта.</p>
+
+				<p><strong>27.03.3302:</strong>
+				Сегодня пресс-секретарь EGU сообщил, что в связи с нападением
+				наемников Mamaragan Coalition на торговые конвой EG Union
+				Первый флот ВКФС приведен в полную боевую готовность и
+				выдвинулся в систему Mamaragan, для обеспечения безопасности
+				своих торговых маршрутов.<br />
+				Поступают сообщения, что в системе Mamaragan были замечены
+				крейсера FNS Trander и FNS Neptune.</p>
+			</div>
+			<div class="col-md-2"></div>
+			<div class="col-md-6 left-align">
+				<h3 class="white-text">Euryale Channel</h3>
+				<h5>01.04.3302 Новости за март. Итоговый выпуск <h5>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/xrKO35ynAsc?list=PLpYh9BBUV2lyrNQ967Sx9-CdlnE9PmvOp" frameborder="0" allowfullscreen></iframe>
+				<h5>10.03.3302 Экспедиция "Млечный Путь" - Встреча у Sagittarius A*<h5>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/XUjxHfHdMVg?list=PLpYh9BBUV2lyrNQ967Sx9-CdlnE9PmvOp" frameborder="0" allowfullscreen></iframe>
+				<h5>23.02.3302 Экспедиция "Млечный Путь" - Безмолвие пустоты</h5>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/2ZiMlW4vOOo?list=PLpYh9BBUV2lyrNQ967Sx9-CdlnE9PmvOp" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+
+</section>
+<!-- /END SECTION -->
+
+<!-- =========================
+    CMDR LIST
+============================== -->
+<section class="packages deep-dark-bg" id="cmdrs">
+
+<div class="container">
+	
+	<!-- SECTION HEADER -->
+	<div class="section-header wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">		
+		<!-- SECTION TITLE -->
+		<h2 class="white-text">Пилоты EG Pilots</h2>
+		<div class="colored-line"></div>		
+	</div>
+	<!-- /END SECTION HEADER -->
+	
+    <div class="row">		
+		<div class="col-md-4 col-sm-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">			
+			<div class="single-package">				
+				<h3 class="package-heading main-color">Советник Диктатора</h3>				
+				<div class="price">
+					<h2><span class="sign"></span>CMDR Xrym<span class="month"></span></h2>
+				</div>				
+				<ul class="package-feature">
+					<li><span class="main-color icon_check_alt2"></span>Текущий корабль - Anaconda</li>
+				</ul>				
+			</div>
+		</div>
+		
+		<div class="col-md-4 col-sm-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+			<div class="single-package">
+				<h3 class="package-heading main-color">Старший офицер</h3>				
+				<div class="price">
+					<div class="color-bg">
+						<h2><span class="sign"></span>CMDR Sover<span class="month"></span></h2>
+					</div>
+				</div>				
+				<ul class="package-feature">
+					<li><span class="main-color icon_check_alt2"></span>Текущий корабль -  Anaconda</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="col-md-4 col-sm-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+			<div class="single-package">
+				<h3 class="package-heading main-color">Исследователь</h3>
+				<div class="price">
+					<h2><span class="sign"></span>CMDR Kosh<span class="month"></span></h2>
+				</div>				
+				<ul class="package-feature">
+					<li><span class="main-color icon_check_alt2"></span>Текущий корабль - ASP Explorer</li>				
+				</ul>
+			</div>
+		</div>
+		<!-- /END SINGLE PACKACGE -->
+		
+	</div>
+	<!-- /END ROW -->
+	
+</div>
+<!-- /END CONTAINER -->
+</section>
+<!-- /END PRICING TABLE SECTION -->
+
+
+<!-- =========================
+     DOWNLOAD NOW 
+============================== -->
+<section class="download" id="download">
+
+<div class="color-overlay">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				
+				<!-- DOWNLOAD BUTTONS AREA -->
+				<div class="download-container">
+					<!-- BUTTONS -->
+					<div class="buttons wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">						
+						<a href="http://www.elite-games.ru/conference/viewtopic.php?t=63739" class="btn btn-default btn-lg standard-button"><i class="icon_chat_alt"></i>Вступить в EG Pilots</a>						
+					</div>
+					<!-- /END BUTTONS -->
+					
+				</div>
+				<!-- END OF DOWNLOAD BUTTONS AREA -->
+				
+										
+				
+			</div> 
+			<!-- END COLUMN -->
+			
+		</div> 
+		<!-- END ROW -->
+		
+	</div>
+	<!-- /END CONTAINER -->
+</div>
+<!-- /END COLOR OVERLAY -->
+
+</section>
+<!-- /END DOWNLOAD SECTION -->
+
+
+<!-- =========================
+     FOOTER 
+============================== -->
+<footer>
+
+<div class="container">
+	
+		
+	<!-- LOGO -->
+	<img src="images/logo.png" alt="LOGO" class="responsive-img">
+	
+	<!-- SOCIAL ICONS -->
+	<ul class="social-icons">
+		<li><a href="#"><i class="social_facebook_square"></i></a></li>
+		<li><a href="#"><i class="social_twitter_square"></i></a></li>
+		<li><a href="#"><i class="social_googleplus_square"></i></a></li>
+		<li><a href="#"><i class="social_instagram_square"></i></a></li>
+		<li><a href="#"><i class="social_flickr_square"></i></a></li>
+	</ul>
+	
+	<!-- COPYRIGHT TEXT -->
+	<p class="copyright">
+		©2016 All Rights Reserved
+	</p>
+
+</div>
+<!-- /END CONTAINER -->
+ 
+</footer>
+<!-- /END FOOTER -->
+
+
+<!-- =========================
+     SCRIPTS 
+============================== -->
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/jquery.scrollTo.min.js"></script>
+<script src="js/jquery.localScroll.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/nivo-lightbox.min.js"></script>
+<script src="js/simple-expand.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/retina.min.js"></script>
+<script src="js/jquery.nav.js"></script>
+<script src="js/matchMedia.js"></script>
+<script src="js/jquery.ajaxchimp.min.js"></script>
+<script src="js/jquery.fitvids.js"></script>
+<script src="js/custom.js"></script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter35456865 = new Ya.Metrika({id:35456865,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="http://mc.yandex.ru/watch/35456865" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 
 </body>
-
 </html>
-
-
