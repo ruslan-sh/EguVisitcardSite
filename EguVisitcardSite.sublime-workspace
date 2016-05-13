@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"fea",
+				"features"
+			],
+			[
+				"intro-st",
+				"intro-subtitle"
+			],
+			[
 				"Pro",
 				"ProductionBuildingType	(ProductionBuilding.cs)"
 			],
@@ -35,6 +43,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 22355,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/styles.css",
+			"settings":
+			{
+				"buffer_size": 15775,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.MD",
+			"settings":
+			{
+				"buffer_size": 130,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/custom.js",
+			"settings":
+			{
+				"buffer_size": 9529,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -190,7 +230,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -204,6 +244,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"				<h5>23.02.2016 Безмолвие пустоты</h5>\n				<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2ZiMlW4vOOo?list=PLpYh9BBUV2lyrNQ967Sx9-CdlnE9PmvOp\" frameborder=\"0\" allowfullscreen></iframe>\n",
+			"\n.news .container strong{\n    color: #0196a7;\n    font-weight: 300;    \n}\n",
+			"			<div class=\"col-md-4\">\n				<h3 class=\"white-text\">Хроники Эвриалы</h3>				\n			</div>\n",
+			"<li><i class=\"icon_check_alt2\"></i> Помощь по игре</li>",
+			"<li><i class=\"icon_check_alt2\"></i> Разнообразные задачи от командования фракцией</li>				",
+			"<li><a href=\"#features\">Преимущества EGU</a></li>\n					",
+			">\n",
+			";\n",
+			"intro",
+			"bs",
 			"  	\n",
 			"resursType",
 			"ResursType",
@@ -233,8 +283,128 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5772,
+								5772
+							]
+						],
+						"settings":
+						{
+							"spell_check": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2139.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15775,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9220,
+								9220
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8552.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "README.MD",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 130,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								130,
+								130
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/custom.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9529,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2878,
+								2878
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 770.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -323,7 +493,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 464.0,
+	"side_bar_width": 200.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
