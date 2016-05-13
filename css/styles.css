@@ -465,6 +465,12 @@ header .intro-section .buttons {
     margin-bottom: 50px;
 }
 
+.app-brief .phone-image.constellation{
+    max-width: none;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
 .app-brief .phone-image img {
     width: 100%;
 }
