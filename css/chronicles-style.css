@@ -31,3 +31,8 @@
 	padding-left: 20px;
 	padding-top: 5px;
 }
+
+
+.navbar li.current a{
+	color: #ffffff;
+}
