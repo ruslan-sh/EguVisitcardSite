@@ -1,7 +1,32 @@
 .date {
 	color: #0196a7;
+	text-align: right;
 }
 
 .news{
 	text-align: left;
+}
+
+.news-container{
+	padding-left: 200px
+}
+
+.navbar{	
+	background-color: #232323;
+	text-align: left;
+	position: fixed;
+	padding-left: 20px;	
+}
+
+.navbar li{
+	font-family: 'Lane', sans-serif;
+	font-weight: normal;
+	font-size: 25px;
+	padding-top: 15px;
+}
+
+.navbar li li{
+	font-size: 15px;
+	padding-left: 20px;
+	padding-top: 5px;
 }
