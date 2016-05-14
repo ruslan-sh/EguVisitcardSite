@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"col",
+				"col-md-1"
+			],
+			[
+				"col-",
+				"col-md-8"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
 				"fea",
 				"features"
 			],
@@ -47,15 +59,39 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 22355,
-				"line_ending": "Unix"
+				"buffer_size": 22267,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "euryale-chronicles.html",
+			"settings":
+			{
+				"buffer_size": 64221,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/chronicles-style.css",
+			"settings":
+			{
+				"buffer_size": 55,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "css/styles.css",
 			"settings":
 			{
-				"buffer_size": 15775,
+				"buffer_size": 15606,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/colors/blue-munsell.css",
+			"settings":
+			{
+				"buffer_size": 1790,
 				"line_ending": "Unix"
 			}
 		},
@@ -83,8 +119,8 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 104.0,
-		"last_filter": "install",
+		"height": 127.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -155,7 +191,9 @@
 	},
 	"expanded_folders":
 	[
-		"/F/github/EguVisitcardSite"
+		"/F/github/EguVisitcardSite",
+		"/F/github/EguVisitcardSite/css",
+		"/F/github/EguVisitcardSite/css/colors"
 	],
 	"file_history":
 	[
@@ -230,7 +268,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -244,6 +282,25 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"01.3302",
+			"12.3301",
+			"11.3301",
+			"10.3301",
+			"09.3301",
+			"08.3301",
+			"body",
+			"07.3301",
+			"color",
+			"3301",
+			"-",
+			"		<div class=\"row news\">\n			<div class=\"col-md-1 date\">26.06.3301</div>\n			<div class=\"col-md-8\">Начало гражданской войны в Euryale между United Euryale First и Future of Euryale. Ожесточенные бои ведутся по всей системе.</div>\n		</div>\n",
+			"colored-line",
+			"		<div class=\"row news\">\n			<div class=\"col-md-1 date\">09.06.3301</div>\n			<div class=\"col-md-8\">независимая партия United Euryale First, во главе с харизматичным лидером и при поддержи бойцов из группировки EG Pilots, начинает борьбу за власть и независимость системы Euryale от диктата коррумпированных федералов из Future of Euryale.</div>\n		</div>\n",
+			"color",
+			"\">\n",
+			"UNION",
+			"EG UNION",
+			"<a",
 			"				<h5>23.02.2016 Безмолвие пустоты</h5>\n				<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2ZiMlW4vOOo?list=PLpYh9BBUV2lyrNQ967Sx9-CdlnE9PmvOp\" frameborder=\"0\" allowfullscreen></iframe>\n",
 			"\n.news .container strong{\n    color: #0196a7;\n    font-weight: 300;    \n}\n",
 			"			<div class=\"col-md-4\">\n				<h3 class=\"white-text\">Хроники Эвриалы</h3>				\n			</div>\n",
@@ -283,7 +340,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -292,15 +349,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 22355,
+						"buffer_size": 22267,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5772,
-								5772
+								551,
+								551
 							]
 						],
 						"settings":
@@ -310,27 +367,84 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2139.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "css/styles.css",
+					"file": "euryale-chronicles.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15775,
+						"buffer_size": 64221,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9220,
-								9220
+								64197,
+								64197
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2527.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/chronicles-style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 55,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								55,
+								55
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15606,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9056,
+								9061
 							]
 						],
 						"settings":
@@ -340,14 +454,44 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8552.0,
+						"translation.y": 7855.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 4,
+					"file": "css/colors/blue-munsell.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1790,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 171.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "README.MD",
 					"semi_transient": false,
 					"settings":
@@ -372,11 +516,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 6,
 					"file": "js/custom.js",
 					"semi_transient": false,
 					"settings":
@@ -399,10 +543,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 770.0,
+						"translation.y": 812.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -410,7 +554,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -451,7 +595,7 @@
 	"project": "EguVisitcardSite.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
