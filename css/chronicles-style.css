@@ -4,8 +4,8 @@
 }
 
 .news{
-	text-align: left;
-	padding-top: 15px;
+	text-align: justify;
+	padding-top: 15px;	
 }
 
 .news-container{
@@ -30,4 +30,8 @@
 	font-size: 15px;
 	padding-left: 20px;
 	padding-top: 5px;
+}
+
+.navbar li.current a{
+	color: #ffffff;
 }
