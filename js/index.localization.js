@@ -159,13 +159,7 @@ $('#selectLanguageDropdown').localizationTool({
         },
         'id:cmdrs-2-feature': {
             'en_GB' : 'Game mechanics'
-        },
-        'id:cmdrs-3-role': {
-            'en_GB' : 'Special Correspondent'
-        },
-        'id:cmdrs-3-feature': {
-            'en_GB' : 'News about EG Union surroundings'
-        },
+        },        
         'id:cmdrs-4-role': {
             'en_GB' : 'Explorer'
         },
