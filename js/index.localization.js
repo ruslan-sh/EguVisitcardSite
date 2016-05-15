@@ -83,7 +83,7 @@ $('#selectLanguageDropdown').localizationTool({
             'en_GB' : 'We are Hunters'
         },
         'id:about-hunters-message': {
-            'en_GB' : 'he location of our systems makes them favorite place for Pirates, Smugglers and Bounty Hunters. Are you into that passion and shiny coins? You\'ve come to the right place! We were never against smuggling. We will always support a fellow  Bounty Hunter. If you are pirate – you are always welcome, especially with big tasty bounty on your head ;)'
+            'en_GB' : 'The location of our systems makes them favorite place for Pirates, Smugglers and Bounty Hunters. Are you into that passion and shiny coins? You\'ve come to the right place! We were never against smuggling. We will always support a fellow  Bounty Hunter. If you are pirate – you are always welcome, especially with big tasty bounty on your head ;)'
         },
         'id:about-builders-header': {
             'en_GB' : 'We are Builders'
