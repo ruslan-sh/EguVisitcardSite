@@ -853,3 +853,27 @@ footer .copyright {
     padding-top: 10px;
     margin-bottom: 50px;
 }
+
+.localizationTool {
+    background: inherit;
+}
+
+.localizationTool .flag{
+    margin-top: 10px;
+}
+
+.localizationTool .ltool-dropdown-label-arrow,
+.localizationTool.ltool-is-visible .ltool-dropdown-label-arrow{
+    display: none;  
+}
+
+.localizationTool li {
+    background-color: #111;
+    padding: 0px;
+}
+
+.localizationTool li:hover,
+.localizationTool li.ltool-is-selected {
+    background-color: #333;
+}
+
