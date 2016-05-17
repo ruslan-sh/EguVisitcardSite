@@ -10,7 +10,10 @@ var cmdrs = [
 	"Pite",
 	"Star Falcon",
 	"Kosh",
-	"Kenhen"
+	"Kenhen",
+	"Zipun",
+	"Zubr78",
+	"Da_Fail"
 ];
 
 function getCmdrIndexs(count){
