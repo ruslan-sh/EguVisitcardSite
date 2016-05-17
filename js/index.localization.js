@@ -2,13 +2,13 @@ $('#selectLanguageDropdown').localizationTool({
     'defaultLanguage' : 'ru_RU', /* (optional) although must be defined if you don't want en_GB */
     'showFlag': true,            /* (optional) show/hide the flag */
     'showCountry': false,         /* (optional) show/hide the country name */
-    'showLanguage': false,        /* (optional) show/hide the country language */    
-    /* 
+    'showLanguage': false,        /* (optional) show/hide the country language */
+    /*
      * Translate your strings below
      */
     'strings' : {
         'element:title' : {
-            'en_GB' : 'Welcome to the EG Union and EG Pilots community website'            
+            'en_GB' : 'Welcome to the EG Union and EG Pilots community website'
         },
 
         'Вступить в EG Pilots': {
@@ -17,7 +17,7 @@ $('#selectLanguageDropdown').localizationTool({
         'Чат EG Pilots' : {
             'en_GB' : 'EG Pilots Discord'
         },
-        
+
         'id:nav-home' : {
             'en_GB' : 'HOME'
         },
@@ -43,14 +43,14 @@ $('#selectLanguageDropdown').localizationTool({
         'id:welcome-message' : {
             'en_GB' : 'Welcome to the EG Union and EG Pilots community website'
         },
-        
-        
+
+
         'id:about-header': {
             'en_GB' : 'About us'
-        },        
+        },
         'id:about-message-1': {
             'en_GB' : 'EG Pilots is a community of free pilots in the world of Elite: Dangerous.'
-        },        
+        },
         'id:about-message-2-1': {
             'en_GB' : 'EG means '
         },
@@ -77,7 +77,7 @@ $('#selectLanguageDropdown').localizationTool({
             'en_GB' : 'We are Explorers'
         },
         'id:about-explorers-message': {
-            'en_GB' : 'Everyday dozens of ships departs from our system into unknown parts of the Universe. Join the Expeditions, fly with our pilots for thousands of light years, inscribe you name in the Hall of Pioneer\'s Glory! Ad Astra, CMDR!'
+            'en_GB' : 'Dozens of our explorers are regularly departing into unknown parts of the galaxy. Join the Expeditions, fly with our pilots for thousands of light years, inscribe you name in the Hall of Pioneer\'s Glory! Ad Astra, CMDR!'
         },
         'id:about-hunters-header': {
             'en_GB' : 'We are Hunters'
@@ -159,7 +159,7 @@ $('#selectLanguageDropdown').localizationTool({
         },
         'id:cmdrs-2-feature': {
             'en_GB' : 'Game mechanics'
-        },        
+        },
         'id:cmdrs-4-role': {
             'en_GB' : 'Explorer'
         },

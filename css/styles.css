@@ -195,7 +195,7 @@ h5 {
 
 .standard-button i,
 .standard-button2 i {
-    vertical-align: inherit;
+    /*vertical-align: inherit;*/
     margin-right: 8px;
     font-size: 20px;
 }
@@ -417,7 +417,7 @@ header .intro-section .buttons {
 
 .features .feature .icon-container {
     display: block;
-    min-height: 120px;
+    min-height: 60px;
     margin-top: 5px;
 }
 
@@ -445,7 +445,9 @@ header .intro-section .buttons {
     width: 100%;
 }
 
-
+.features .feature-details p{
+    text-align: justify;
+}
 /*---------------------------------------
    SECTION:  BRIEF
 -----------------------------------------*/
@@ -487,6 +489,7 @@ header .intro-section .buttons {
 }
 
 .app-brief .left-align .feature-list {
+    font-size: 18px;
     margin-top: 40px;
 }
 
@@ -678,7 +681,6 @@ object {
     overflow: auto;
     border: 0px solid #161616;
     border-radius: 3px;
-    margin-bottom: 60px;
 }
 
 .single-cmdr .price {
@@ -690,6 +692,7 @@ object {
 }
 .single-cmdr .price h2 {
     color: #FFFFFF;
+    font-size: 2.5rem;
 }
 .single-cmdr .price .sign {
     vertical-align: super;
@@ -858,18 +861,26 @@ footer .copyright {
     background: inherit;
 }
 
-.localizationTool .flag{
-    margin-top: 10px;
+.localizationTool .ltool-dropdown-label .flag{
+    margin-top: 12px;
+}
+
+.navbar-collapse.in .localizationTool .ltool-dropdown-label .flag{
+    margin-top: 6px;
 }
 
 .localizationTool .ltool-dropdown-label-arrow,
 .localizationTool.ltool-is-visible .ltool-dropdown-label-arrow{
-    display: none;  
+    display: none;
 }
 
-.localizationTool li {
+.localizationTool .ltool-dropdown-items li {
     background-color: #111;
-    padding: 0px;
+    padding: 6px 0px 0px 3px;
+    margin-bottom: -3px;
+}
+.navbar-collapse.in .localizationTool .ltool-dropdown-items li {
+    margin-bottom: 0px;
 }
 
 .localizationTool li:hover,
@@ -877,3 +888,6 @@ footer .copyright {
     background-color: #333;
 }
 
+.navbar-collapse.in {
+    overflow-y: unset;
+}
