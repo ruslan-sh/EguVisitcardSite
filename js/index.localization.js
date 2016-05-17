@@ -77,7 +77,7 @@ $('#selectLanguageDropdown').localizationTool({
             'en_GB' : 'We are Explorers'
         },
         'id:about-explorers-message': {
-            'en_GB' : 'Dozens of ships departs from our system into unknown parts of the Universe. Join the Expeditions, fly with our pilots for thousands of light years, inscribe you name in the Hall of Pioneer\'s Glory! Ad Astra, CMDR!'
+            'en_GB' : 'Dozens of our explorers are regularly departing into unknown parts of the galaxy. Join the Expeditions, fly with our pilots for thousands of light years, inscribe you name in the Hall of Pioneer\'s Glory! Ad Astra, CMDR!'
         },
         'id:about-hunters-header': {
             'en_GB' : 'We are Hunters'

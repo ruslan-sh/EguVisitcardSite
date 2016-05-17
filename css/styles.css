@@ -195,7 +195,7 @@ h5 {
 
 .standard-button i,
 .standard-button2 i {
-    vertical-align: inherit;
+    /*vertical-align: inherit;*/
     margin-right: 8px;
     font-size: 20px;
 }
@@ -417,7 +417,7 @@ header .intro-section .buttons {
 
 .features .feature .icon-container {
     display: block;
-    min-height: 120px;
+    min-height: 60px;
     margin-top: 5px;
 }
 
@@ -445,7 +445,9 @@ header .intro-section .buttons {
     width: 100%;
 }
 
-
+.features .feature-details p{
+    text-align: justify;
+}
 /*---------------------------------------
    SECTION:  BRIEF
 -----------------------------------------*/
@@ -487,6 +489,7 @@ header .intro-section .buttons {
 }
 
 .app-brief .left-align .feature-list {
+    font-size: 18px;
     margin-top: 40px;
 }
 
