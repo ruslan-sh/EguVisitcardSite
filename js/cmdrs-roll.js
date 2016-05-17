@@ -9,7 +9,7 @@ var cmdrs = [
 	"GIF",
 	"Pite [EG]",
 	"Star Falcon",
-	"Kosh",
+	"KOSH_EG",
 	"Kenhen63",
 	"Zipun",
 	"Zybr78",
