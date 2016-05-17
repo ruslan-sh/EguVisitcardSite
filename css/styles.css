@@ -681,7 +681,6 @@ object {
     overflow: auto;
     border: 0px solid #161616;
     border-radius: 3px;
-    margin-bottom: 60px;
 }
 
 .single-cmdr .price {
@@ -693,6 +692,7 @@ object {
 }
 .single-cmdr .price h2 {
     color: #FFFFFF;
+    font-size: 2.5rem;
 }
 .single-cmdr .price .sign {
     vertical-align: super;
