@@ -1,5 +1,5 @@
 var cmdrs = [
-	"Xrym",
+	"Nirgam",
 	"AL TARF",
 	"H-Arck",
 	"Rzhevski",
@@ -7,13 +7,13 @@ var cmdrs = [
 	"MoHax",
 	"Sover",
 	"GIF",
-	"Pite",
+	"Pite [EG]",
 	"Star Falcon",
 	"Kosh",
-	"Kenhen",
+	"Kenhen63",
 	"Zipun",
 	"Zybr78",
-	"Da_Fail"
+	"Etsu Togenada"
 ];
 
 function getCmdrIndexs(count){
