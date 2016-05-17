@@ -12,7 +12,7 @@ var cmdrs = [
 	"Kosh",
 	"Kenhen",
 	"Zipun",
-	"Zubr78",
+	"Zybr78",
 	"Da_Fail"
 ];
 
