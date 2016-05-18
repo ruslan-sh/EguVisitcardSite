@@ -457,8 +457,8 @@ header .intro-section .buttons {
     padding-bottom: 60px;
 }
 
-.app-brief h2 {
-    margin-bottom: 20px;
+.app-brief h3 {
+    text-align: center;
 }
 
 .app-brief .phone-image {
@@ -490,12 +490,32 @@ header .intro-section .buttons {
 
 .app-brief .left-align .feature-list {
     font-size: 18px;
-    margin-top: 40px;
+    margin-top: 35px;
+}
+.app-brief .left-align .feature-list li {
+    margin-bottom: 28px;
 }
 
-.app-brief .left-align .feature-list li {
-    margin-bottom: 26px;
+@media (min-width: 992px) {
+    .app-brief .left-align .feature-list {
+        margin-top: 65px;
+        margin-left: 15px;
+    }
+    .app-brief .left-align .feature-list li {
+        margin-bottom: 40px;
+    }
 }
+
+@media (min-width: 1200px) {
+    .app-brief .left-align .feature-list {
+        margin-top: 175px;
+        margin-left: 15px;
+    }
+    .app-brief .left-align .feature-list li {
+        margin-bottom: 40px;
+    }
+}
+
 
 .app-brief .left-align .feature-list li i {
     margin-right: 10px;
