@@ -125,6 +125,9 @@ $('#selectLanguageDropdown').localizationTool({
         'id:features-7': {
             'en_GB' : 'Opportunity for every one to grow in ranks'
         },
+        'id:features-8': {
+            'en_GB' : 'We have our own station EG MAIN HQ and planet EG PRIME!'
+        },
 
         'id:news-header': {
             'en_GB' : 'News'
@@ -146,25 +149,7 @@ $('#selectLanguageDropdown').localizationTool({
         },
 
         'id:cmdrs-header': {
-            'en_GB' : 'EG Pilots'
-        },
-        'id:cmdrs-1-role': {
-            'en_GB' : 'Dictator Counsellor'
-        },
-        'id:cmdrs-1-feature': {
-            'en_GB' : 'Strategy, planning and tasks'
-        },
-        'id:cmdrs-2-role': {
-            'en_GB' : 'Senior officer'
-        },
-        'id:cmdrs-2-feature': {
-            'en_GB' : 'Game mechanics'
-        },
-        'id:cmdrs-4-role': {
-            'en_GB' : 'Explorer'
-        },
-        'id:cmdrs-4-feature': {
-            'en_GB' : 'Expeditions to the wonders of our Galaxy'
+            'en_GB' : 'EG Pilots Officers'
         },
     }
 });
