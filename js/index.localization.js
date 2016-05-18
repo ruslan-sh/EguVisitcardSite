@@ -128,9 +128,6 @@ $('#selectLanguageDropdown').localizationTool({
         'id:features-7': {
             'en_GB' : 'Opportunity for every one to grow in ranks'
         },
-        'id:features-8': {
-            'en_GB' : 'We have our own planet and station'
-        },
         'id:hq-info': {
             'en_GB' : 'Euryale system, planet EG PRIME, station EG MAIN HQ'
         },
