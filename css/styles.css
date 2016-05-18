@@ -488,6 +488,10 @@ header .intro-section .buttons {
     margin-top: 50px;
 }
 
+.app-brief .features-header {
+    margin-bottom: 50px;
+}
+
 .app-brief .left-align .feature-list {
     font-size: 18px;
     margin-top: 35px;
