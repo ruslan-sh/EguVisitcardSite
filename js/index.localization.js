@@ -126,7 +126,7 @@ $('#selectLanguageDropdown').localizationTool({
             'en_GB' : 'Opportunity for every one to grow in ranks'
         },
         'id:features-8': {
-            'en_GB' : 'We have our own station EG MAIN HQ and the whole planet EG PRIME!'
+            'en_GB' : 'We have our own station EG MAIN HQ and planet EG PRIME!'
         },
 
         'id:news-header': {
