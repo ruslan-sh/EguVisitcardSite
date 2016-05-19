@@ -104,6 +104,9 @@ $('#selectLanguageDropdown').localizationTool({
         'id:features-territory-header': {
             'en_GB' : 'Our territory'
         },
+        'id:features-hq-header': {
+            'en_GB' : 'Our Headquarters'
+        },
         'id:features-1': {
             'en_GB' : 'More than 200 pilots united with one purpose! It\'s fun!'
         },
@@ -125,8 +128,8 @@ $('#selectLanguageDropdown').localizationTool({
         'id:features-7': {
             'en_GB' : 'Opportunity for every one to grow in ranks'
         },
-        'id:features-8': {
-            'en_GB' : 'We have our own station EG MAIN HQ and planet EG PRIME!'
+        'id:hq-info': {
+            'en_GB' : 'Euryale system, planet EG PRIME, station EG MAIN HQ'
         },
 
         'id:news-header': {
