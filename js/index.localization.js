@@ -108,10 +108,10 @@ $('#selectLanguageDropdown').localizationTool({
             'en_GB' : 'Our Headquarters'
         },
         'id:features-1': {
-            'en_GB' : 'More than 200 pilots united with one purpose! It\'s fun!'
+            'en_GB' : 'Hundreds of pilots united with one purpose'
         },
         'id:features-2': {
-            'en_GB' : 'Different missions from our fraction\'s command.'
+            'en_GB' : 'Different missions from our fraction\'s command'
         },
         'id:features-3': {
             'en_GB' : 'Playing in any regime (Open, Solo, Private Group)'
