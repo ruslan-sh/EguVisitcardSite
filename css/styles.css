@@ -379,6 +379,10 @@ header .intro-section .buttons {
     margin-top: 35px;
 }
 
+header .intro-videos .item-video {
+    height: 315px;
+}
+
 /*---------------------------------------
    SECTION:  FEATURES
 -----------------------------------------*/
