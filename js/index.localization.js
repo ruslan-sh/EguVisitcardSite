@@ -142,13 +142,16 @@ $('#selectLanguageDropdown').localizationTool({
             'en_GB' : 'View all Euryale Chronicles (Russian)'
         },
         'id:news-video-1-header': {
-            'en_GB' : '15.05.3302 April Digest. News Release.'
+            'en_GB' : '01.06.3302 May Digest. News Release.'
         },
         'id:news-video-2-header': {
-            'en_GB' : '01.04.3302 March Digest. News Release.'
+            'en_GB' : '15.05.3302 April Digest. News Release.'
         },
         'id:news-video-3-header': {
-            'en_GB' : '10.03.3302 "Milky Way" Expedition - Sagittarius A* meeting'
+            'en_GB' : '01.04.3302 March Digest. News Release.'
+        },
+        'id:news-video-link': {
+            'en_GB' : 'View all (Russian)'
         },
 
         'id:cmdrs-header': {
