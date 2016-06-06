@@ -146,7 +146,8 @@ wow.init();
 ===  OWL CROUSEL               ====
 =================================== */
 $(document).ready(function () {
-    $('.owl-carousel').owlCarousel({
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
         items:1,
         merge:true,
         loop:true,
@@ -163,28 +164,13 @@ $(document).ready(function () {
         },
         autoplay:true,
         autoplayTimeout:10000,
-        autoplayHoverPause:true
-    })
+        autoplayHoverPause:false,
+        onPlayVideo: onPlay
+    });
+    function onPlay (event){
+        owl.trigger('stop.owl.autoplay')
+    };
 });
-
-    // $("#feedbacks").owlCarousel({
-
-    //     navigation: false, // Show next and prev buttons
-    //     slideSpeed: 800,
-    //     paginationSpeed: 400,
-    //     autoPlay: 5000,
-    //     singleItem: true
-    // });
-
-    // var owl = $("#screenshots");
-
-    // owl.owlCarousel({
-    //     items: 4, //10 items above 1000px browser width
-    //     itemsDesktop: [1000, 4], //5 items between 1000px and 901px
-    //     itemsDesktopSmall: [900, 2], // betweem 900px and 601px
-    //     itemsTablet: [600, 1], //2 items between 600 and 0
-    //     itemsMobile: false // itemsMobile disabled - inherit from itemsTablet option
-    // });
 
 /* =================================
 ===  Nivo Lightbox              ====
