@@ -917,3 +917,12 @@ footer .copyright {
 .navbar-collapse.in {
     overflow-y: unset;
 }
+
+.phone-image.dictator {
+    margin-top: 80px;
+    max-width: none;
+}
+
+.dictator-bio {
+    text-align: left;
+}
