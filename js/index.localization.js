@@ -174,5 +174,17 @@ $('#selectLanguageDropdown').localizationTool({
         'id:cmdrs-header': {
             'en_GB' : 'EG Pilots Officers'
         },
+        //
+        // Links
+        //        
+        'id:links-vk' : {
+            'en_GB' : 'EGU on VK'
+        },
+        'id:links-inara' : {
+            'en_GB' : 'EGU on Inara'
+        },
+        'id:links-diplomatic' : {
+            'en_GB' : 'EGU Diplomatic Channel'
+        },
     }
 });
