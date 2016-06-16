@@ -1,0 +1,24 @@
+h1 {
+	font-family: "Roboto";
+	font-weight: lighter;
+}
+
+.pilot {
+	margin: 10px;
+	background-color: #404040;
+}
+
+.rank {
+	display: inline-block;
+	height: 64px;
+	width: 64px;
+	margin-top: 25px;
+
+    -webkit-background-size: cover;
+            background-size: cover;        
+}
+
+.pilot-1 {
+	background-image: url(../images/hall-of-fame/pilot-1.gif);
+
+}

@@ -24,6 +24,9 @@ $('#selectLanguageDropdown').localizationTool({
         'id:nav-about' : {
             'en_GB' : 'ABOUT US'
         },
+        'id:nav-dictator' : {
+            'en_GB' : 'OUR LEADER'
+        },
         'id:nav-features' : {
             'en_GB' : 'EGU ADVANTAGES'
         },
@@ -46,7 +49,7 @@ $('#selectLanguageDropdown').localizationTool({
 
 
         'id:about-header': {
-            'en_GB' : 'About us'
+            'en_GB' : 'About Us'
         },
         'id:about-message-1': {
             'en_GB' : 'EG Pilots is a community of free pilots in the world of Elite: Dangerous.'
@@ -97,7 +100,21 @@ $('#selectLanguageDropdown').localizationTool({
         'id:about-protectors-message': {
             'en_GB' : 'Every one joined the EG Union may count on our support. We are providing protection and support in all our systems. If you got yourself into “trouble” – we are there on the first call. We will never abandon our pilots!'
         },
-
+        //
+        // Dictator
+        //
+        'id:dictator-header': {
+            'en_GB' : 'Our Leader'
+        },
+        'id:dictator-bio-header': {
+            'en_GB' : 'Yuri Grom'
+        },        
+        'id:dictator-bio': {
+            'en_GB' : 'He was born in Euryale system on the board of EG Main HQ. Former Commander of the Euryale Defence Forces, he managed to get to the top ranks of his faction in several years and then he has united EG Pilots and Euryale population in their fight for independence of Euryale. With that move he has boosted Euryale system to the next evolution stage.'
+        },        
+        //
+        // Features
+        //
         'id:features-header': {
             'en_GB' : 'Advantages of EG Union'
         },
@@ -156,6 +173,18 @@ $('#selectLanguageDropdown').localizationTool({
 
         'id:cmdrs-header': {
             'en_GB' : 'EG Pilots Officers'
+        },
+        //
+        // Links
+        //        
+        'id:links-vk' : {
+            'en_GB' : 'EGU on VK'
+        },
+        'id:links-inara' : {
+            'en_GB' : 'EGU on Inara'
+        },
+        'id:links-diplomatic' : {
+            'en_GB' : 'EGU Diplomatic Channel'
         },
     }
 });

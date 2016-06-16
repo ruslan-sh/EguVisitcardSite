@@ -917,3 +917,24 @@ footer .copyright {
 .navbar-collapse.in {
     overflow-y: unset;
 }
+
+.phone-image.dictator {
+    margin-top: 30px;
+    max-width: none;
+}
+
+.dictator-bio {
+    text-align: left;
+}
+
+.download .buttons .standard-button{
+    width: 320px;
+}
+
+.header .standard-button{
+    width: 245px;
+}
+
+.footer-logo{
+    margin-top: 50px;
+}
