@@ -43,3 +43,10 @@ blockquote {
 q {
 	font-style: italic;
 }
+
+.select-language{
+	position: absolute;
+	z-index: 3000;
+	right: 10px;
+	top: 10px;
+}
