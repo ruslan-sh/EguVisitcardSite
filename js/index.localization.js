@@ -108,10 +108,10 @@ $('#selectLanguageDropdown').localizationTool({
         },
         'id:dictator-bio-header': {
             'en_GB' : 'Yuri Grom'
-        },        
+        },
         'id:dictator-bio': {
             'en_GB' : 'He was born in Euryale system on the board of EG Main HQ. Former Commander of the Euryale Defence Forces, he managed to get to the top ranks of his faction in several years and then he has united EG Pilots and Euryale population in their fight for independence of Euryale. With that move he has boosted Euryale system to the next evolution stage.'
-        },        
+        },
         //
         // Features
         //
@@ -148,16 +148,41 @@ $('#selectLanguageDropdown').localizationTool({
         'id:hq-info': {
             'en_GB' : 'Euryale system, planet EG PRIME, station EG MAIN HQ'
         },
-
+        //
+        // News
+        //
         'id:news-header': {
             'en_GB' : 'News'
         },
+
         'id:news-newspaper-header': {
             'en_GB' : 'Euryale Chronicles'
         },
-        'id:news-newspaper-link': {
-            'en_GB' : 'View all Euryale Chronicles (Russian)'
+        'id:news-newspaper-article-1': {
+            'en_GB' : '"According to our data the Mamaragan Coalition mercenaries who have fled recently, engage in illegal activity in this region of space, due to which EG Union have established the isolation regime throughout the territory under its control to maintain the order" - said the press secretary of EGU.'
         },
+        'id:news-newspaper-article-2': {
+            'en_GB' : 'Admiral Lin Fei notified that The First Fleet forces have captured the Padalka Orbital outpost. Part of the Mamaragan Coalition mercenaries have managed to escape.'
+        },
+        'id:news-newspaper-article-3': {
+            'en_GB' : 'It was learned that The First Fleet was able to beat the Mamaragan Coalition forces in Mamaragan A 1. FNS Trander left the system with a minor damage.'
+        },
+        'id:news-newspaper-article-4': {
+            'en_GB' : 'There have been reports that the confrontation in Mamaragan system keeps escalating again. Today Mamaragan Coalition forces supported by FNS Trander tried to approach the Wolf Platform, but were intercepted by the forces of EG Union.'
+        },
+        'id:news-newspaper-article-5': {
+            'en_GB' : 'It is reported that the confrontation between Mamaragan Coalition and EG Union is experiencing a lull in Mamaragan system. There have been small skirmishes on the border territories controlled by the parties.'
+        },
+        'id:news-newspaper-article-6': {
+            'en_GB' : 'Admiral Lin Fei said that the garrison of Wolf Platform station surrendered without a fight.'
+        },
+        'id:news-newspaper-article-7': {
+            'en_GB' : 'It has become known that the First Fleet destroyed the Mamaragan Coalition forces near Wolf Platform Station. The remaining Coalition forces retreated to the NN 3019 B (Mamaragan B) and Padalka Orbital outpost.'
+        },
+        'id:news-newspaper-link': {
+            'en_GB' : 'View all Euryale Chronicles'
+        },
+
         'id:news-video-1-header': {
             'en_GB' : '01.06.3302 May Digest. News Release.'
         },
@@ -176,7 +201,7 @@ $('#selectLanguageDropdown').localizationTool({
         },
         //
         // Links
-        //        
+        //
         'id:links-vk' : {
             'en_GB' : 'EGU on VK'
         },
@@ -187,5 +212,13 @@ $('#selectLanguageDropdown').localizationTool({
             'en_GB' : 'EGU Diplomatic Channel'
         },
     }
+});
+
+$('.ltool-language.en_GB').click(function() {
+    $('#news-newspaper-link').attr("href", "euryale-chronicles-en.html");
+});
+
+$('.ltool-language.ru_RU').click(function() {
+    $('#news-newspaper-link').attr("href", "euryale-chronicles.html");
 });
 
