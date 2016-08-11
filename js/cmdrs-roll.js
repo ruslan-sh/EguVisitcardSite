@@ -16,6 +16,15 @@ var cmdrs = [
 	"Zipun",
 	"Zybr78_RUS",
 	//new
+	// "Arilent",
+	// "capt.Shade_Gostovsky",
+	// "DiRaven",
+	// "Djeam",
+	// "IOGER",
+	// "John Mc'Hamster",
+	// "KyDecHuK",
+	// "Shiaver",
+	// "VaVylon"
 ];
 
 function getCmdrIndexs(count){
