@@ -1,19 +1,21 @@
 var cmdrs = [
-	"Nirgam",
+	// approved
 	"AL TARF",
-	"H-Arck",
-	"Rzhevski [EG]",
+	"Etsu Togenada",
 	"frolik",
-	"MoHax",
-	"Sover",
 	"GIF",
-	"Pite [EG]",
-	"Star Falcon",
-	"Kosh_EG",
+	"H-Arck",
 	"Kenhen63",
+	"Kosh_EG",
+	"MoHax",
+	"Nirgam",
+	"Pite [EG]",
+	"Rzhevski [EG]",
+	"Sover",
+	"Star Falcon",
 	"Zipun",
 	"Zybr78_RUS",
-	"Etsu Togenada"
+	//new
 ];
 
 function getCmdrIndexs(count){
