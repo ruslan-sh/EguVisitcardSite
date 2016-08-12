@@ -15,16 +15,16 @@ var cmdrs = [
 	"Star Falcon",
 	"Zipun",
 	"Zybr78_RUS",
+	"Arilent",
+	"DiRaven",
+	"I0GER",
+	"Shiaver",
+	"VaVylon"
 	//new
-	// "Arilent",
 	// "capt.Shade_Gostovsky",
-	// "DiRaven",
 	// "Djeam",
-	// "IOGER",
 	// "John Mc'Hamster",
 	// "KyDecHuK",
-	// "Shiaver",
-	// "VaVylon"
 ];
 
 function getCmdrIndexs(count){
