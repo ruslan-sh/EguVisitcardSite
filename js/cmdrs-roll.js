@@ -20,10 +20,10 @@ var cmdrs = [
 	"I0GER",
 	"Shiaver",
 	"VaVylon"
+	"John Mc'Hamster",
 	//new
 	// "capt.Shade_Gostovsky",
 	// "Djeam",
-	// "John Mc'Hamster",
 	// "KyDecHuK",
 ];
 
