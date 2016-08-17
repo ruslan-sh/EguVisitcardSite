@@ -109,8 +109,35 @@ $('#selectLanguageDropdown').localizationTool({
         'id:dictator-bio-header': {
             'en_GB' : 'Yuri Grom'
         },
-        'id:dictator-bio': {
-            'en_GB' : 'He was born in Euryale system on the board of EG Main HQ. Former Commander of the Euryale Defence Forces, he managed to get to the top ranks of his faction in several years and then he has united EG Pilots and Euryale population in their fight for independence of Euryale. With that move he has boosted Euryale system to the next evolution stage.'
+        'id:dictator-bio-1': {
+            'en_GB' : 'Yuri was born in Euryale system on EG Main HQ station in the year of 3223.'
+        },
+        'id:dictator-bio-2': {
+            'en_GB' : 'In 3244 enrolled in the federal fleet academy, from which he graduated with honors.'
+        },
+        'id:dictator-bio-3': {
+            'en_GB' : 'In 3265 has already received the rank of Rear Admiral and commander of one of the Federal cruisers.'
+        },
+        'id:dictator-bio-4': {
+            'en_GB' : 'In 3270 was promoted to Vice-Admiral and commanded one of the Federal 8th fleet battle group.'
+        },
+        'id:dictator-bio-5': {
+            'en_GB' : 'In 3276 was promoted to Admiral and commanded 12th Federal fleet.'
+        },
+        'id:dictator-bio-6': {
+            'en_GB' : 'In 3287 asked for transfer to the system security service in Euryale system on a commanders duty.'
+        },
+        'id:dictator-bio-7': {
+            'en_GB' : 'In 3291 he retired and engaged in political activities in Euryale system joining United Euryale First.'
+        },
+        'id:dictator-bio-8': {
+            'en_GB' : 'In 3297 took place of faction leader at United Euryale First.'
+        },
+        'id:dictator-bio-9': {
+            'en_GB' : 'In 3301 have demanded ruling party Future of Euryale to start a process of the system separation from the Federation.'
+        },
+        'id:dictator-bio-10': {
+            'en_GB' : 'During his service in the Navy has established himself as a strong strategist and tactician. Also considered to be an excellent diplomat, for several times he was able to persuade rebellious systems to surrender and lay down their arms.'
         },
         //
         // Features
