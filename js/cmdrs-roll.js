@@ -1,5 +1,4 @@
 var cmdrs = [
-	// approved
 	"AL TARF",
 	"Etsu Togenada",
 	"frolik",
@@ -19,12 +18,11 @@ var cmdrs = [
 	"DiRaven",
 	"I0GER",
 	"Shiaver",
-	"VaVylon"
+	"VaVylon",
 	"John Mc'Hamster",
-	//new
-	// "capt.Shade_Gostovsky",
-	// "Djeam",
-	// "KyDecHuK",
+	"capt.ShaDe_Gastovsky",
+	"Djeam",
+	"KyDecHuK"
 ];
 
 function getCmdrIndexs(count){
