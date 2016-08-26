@@ -1,0 +1,11 @@
+header .only-logo .navbar {
+    padding: 0px;
+}
+
+header .intro-section .intro-subtitle{
+    text-align: center;
+}
+
+header .color-overlay {
+    min-height: 650px;
+}
