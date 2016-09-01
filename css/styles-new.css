@@ -9,3 +9,8 @@ header .intro-section .intro-subtitle{
 header .color-overlay {
     min-height: 650px;
 }
+
+section#news .news-preview {
+	height: 400px;
+	background-color: #000000;
+}
