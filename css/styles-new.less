@@ -1,3 +1,6 @@
+@font-black: #000000;
+@font-white: #ffffff;
+
 header {
     .only-logo .navbar {
         padding: 0px;
@@ -12,13 +15,107 @@ header {
 
 section#news {
      .news-preview {
-	    height: 400px;
-	    color: #000000;
+	    height: 450px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+	    color: @font-white;
         font-style: normal;
-       
+        overflow-y: hidden;
+
+        &.white-text {
+            color: @font-white;
+        }               
         &.news-1 {
-            background: url(../images/bg-1.jpg) no-repeat center top;
+            background: url(../images/news/news-1.jpg) no-repeat center top;
+        }
+        &.news-2 {
+            background: url(../images/news/news-2.jpg) no-repeat center top;
+        }
+        &.news-3 {
+            background: url(../images/news/news-3.jpg) no-repeat center top;
+        }
+        &.news-4 {
+            background: url(../images/news/news-4.jpg) no-repeat center top;
+        }
+        &.news-5 {
+            background: url(../images/news/news-5.jpg) no-repeat center top;
+        }
+        &.news-6 {
+            background: url(../images/news/news-6.jpg) no-repeat center top;
         }        
+
+        h1 {            
+            font-size: 2rem;
+            line-height: 2.5rem;
+            font-weight: bold;
+            background-color: #101010;
+            margin-top: 0px;
+        }
+
+        .text {
+            position: relative;
+            bottom: 0px;
+            height: 60%;
+            margin-top: 40%;
+            margin-left: 35%;
+            text-align: left;
+            font-size: 1.2rem;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+        }
+
+        &:hover {
+            h1 {
+                background-color: #404040;
+            }
+
+            .text {
+                 background-color: rgba(64, 64, 64, 0.5);           
+            }            
+        }
      }    
 }
 
+section#links {
+    background: url('../images/bg-3.jpg') no-repeat center fixed;
+    -webkit-background-size: cover;
+            background-size: cover;
+    color: #ffffff;
+
+    .color-overlay {
+        padding-top: 110px;
+        padding-bottom: 70px;
+    }
+    .download-container {
+        padding-bottom: 80px;
+    }
+    .subscription-form-container {
+        padding-bottom: 80px;
+    }
+    .subscription-form {
+        .input-box {
+            height: 57px;
+            padding-left: 20px;
+            width: 320px;
+            -webkit-box-shadow: none;
+                    box-shadow: none;
+            background: #FFF;
+            border: 2px solid #FFF;
+        }
+        .input-box:focus,
+        .input-box:active {
+            color: #000;
+            font-weight: 400;
+        }
+        .subscription-success,
+        .subscription-error {
+            display: none;
+        }
+        h2 {
+            margin-bottom: 30px;
+        }
+    }    
+    .buttons .standard-button{
+        width: 320px;
+    }
+}
