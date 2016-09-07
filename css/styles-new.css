@@ -7,7 +7,16 @@ header .intro-section .intro-subtitle {
 header .color-overlay {
   min-height: 650px;
 }
-section#news .news-preview {
+.features .image {
+  max-width: 250px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+.features .image img {
+  width: 100%;
+}
+.image-link {
+  display: block;
   height: 450px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -15,8 +24,29 @@ section#news .news-preview {
   font-style: normal;
   overflow-y: hidden;
 }
-section#news .news-preview.white-text {
-  color: #ffffff;
+.image-link h1 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: bold;
+  background-color: #101010;
+  margin-top: 0px;
+}
+.image-link .text {
+  position: relative;
+  bottom: 0px;
+  height: 60%;
+  margin-top: 40%;
+  margin-left: 35%;
+  text-align: left;
+  font-size: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+.image-link:hover h1 {
+  background-color: #404040;
+}
+.image-link:hover .text {
+  background-color: rgba(64, 64, 64, 0.5);
 }
 section#news .news-preview.news-1 {
   background: url(../images/news/news-1.jpg) no-repeat center top;
@@ -36,29 +66,14 @@ section#news .news-preview.news-5 {
 section#news .news-preview.news-6 {
   background: url(../images/news/news-6.jpg) no-repeat center top;
 }
-section#news .news-preview h1 {
-  font-size: 2rem;
-  line-height: 2.5rem;
-  font-weight: bold;
-  background-color: #101010;
-  margin-top: 0px;
+section#about .about-dictator {
+  background: url(../images/dictator.jpg) no-repeat center top;
 }
-section#news .news-preview .text {
-  position: relative;
-  bottom: 0px;
-  height: 60%;
-  margin-top: 40%;
-  margin-left: 35%;
-  text-align: left;
-  font-size: 1.2rem;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
+section#about .about-advantages {
+  background: url(../images/egu-hq.jpg) no-repeat center top;
 }
-section#news .news-preview:hover h1 {
-  background-color: #404040;
-}
-section#news .news-preview:hover .text {
-  background-color: rgba(64, 64, 64, 0.5);
+section#about .about-hall-of-fame {
+  background: url(../images/hall-of-fame.png) no-repeat center top;
 }
 section#links {
   background: url('../images/bg-3.jpg') no-repeat center fixed;

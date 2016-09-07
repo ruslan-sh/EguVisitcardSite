@@ -11,20 +11,58 @@ header {
     .color-overlay {
        min-height: 650px;
     }
-} 
+}
+
+.features{
+    .image {
+        max-width: 250px;
+        margin: auto;
+        margin-bottom: 80px;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.image-link {
+    display: block;
+    height: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: @font-white;
+    font-style: normal;
+    overflow-y: hidden;
+    h1 {            
+        font-size: 2rem;
+        line-height: 2.5rem;
+        font-weight: bold;
+        background-color: #101010;
+        margin-top: 0px;
+    }
+    .text {
+        position: relative;
+        bottom: 0px;
+        height: 60%;
+        margin-top: 40%;
+        margin-left: 35%;
+        text-align: left;
+        font-size: 1.2rem;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+    }
+    &:hover {
+        h1 {
+            background-color: #404040;
+        }
+
+        .text {
+            background-color: rgba(64, 64, 64, 0.5);           
+        }            
+    }
+}
 
 section#news {
-     .news-preview {
-	    height: 450px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-	    color: @font-white;
-        font-style: normal;
-        overflow-y: hidden;
-
-        &.white-text {
-            color: @font-white;
-        }               
+     .news-preview { 
         &.news-1 {
             background: url(../images/news/news-1.jpg) no-repeat center top;
         }
@@ -42,38 +80,20 @@ section#news {
         }
         &.news-6 {
             background: url(../images/news/news-6.jpg) no-repeat center top;
-        }        
-
-        h1 {            
-            font-size: 2rem;
-            line-height: 2.5rem;
-            font-weight: bold;
-            background-color: #101010;
-            margin-top: 0px;
-        }
-
-        .text {
-            position: relative;
-            bottom: 0px;
-            height: 60%;
-            margin-top: 40%;
-            margin-left: 35%;
-            text-align: left;
-            font-size: 1.2rem;
-            background-color: rgba(0, 0, 0, 0.5);
-            padding: 10px;
-        }
-
-        &:hover {
-            h1 {
-                background-color: #404040;
-            }
-
-            .text {
-                 background-color: rgba(64, 64, 64, 0.5);           
-            }            
         }
      }    
+}
+
+section#about{
+    .about-dictator{
+        background: url(../images/dictator.jpg) no-repeat center top;
+    }
+    .about-advantages{
+        background: url(../images/egu-hq.jpg) no-repeat center top;
+    }
+    .about-hall-of-fame{
+        background: url(../images/hall-of-fame.png) no-repeat center top;
+    }
 }
 
 section#links {

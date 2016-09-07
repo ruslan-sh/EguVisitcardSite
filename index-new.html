@@ -55,60 +55,57 @@
 
 
 <header class="header" data-stellar-background-ratio="0.5" id="home">
-<div class="color-overlay">
-	<!-- STICKY NAVIGATION -->
-	<div class="navbar navbar-inverse bs-docs-nav navbar-fixed-top sticky-navigation">
+	<div class="color-overlay">		
+		<div class="navbar navbar-inverse bs-docs-nav navbar-fixed-top sticky-navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<!-- LOGO ON STICKY NAV BAR -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#kane-navigation">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+				</div>
+				<!-- NAVIGATION LINKS -->
+				<div class="navbar-collapse collapse" id="kane-navigation">
+					<ul class="nav navbar-nav navbar-right main-navigation">
+						<li><a id="nav-home" href="#home">Главная</a></li>
+						<li><a id="nav-news" href="#news">Новости</a></li>
+						<li><a id="nav-about" href="#about">О нас</a></li>
+						<li><a id="nav-links" href="#links">Ссылки</a></li>
+						<li><div id="selectLanguageDropdown" class="localizationTool"></div></li>
+					</ul>
+				</div>
+
+			</div> <!-- /END CONTAINER -->
+		</div>
+
 		<div class="container">
-			<div class="navbar-header">
-
-				<!-- LOGO ON STICKY NAV BAR -->
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#kane-navigation">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				</button>
-
-				<a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
-
-			</div>
-			<!-- NAVIGATION LINKS -->
-			<div class="navbar-collapse collapse" id="kane-navigation">
-				<ul class="nav navbar-nav navbar-right main-navigation">
-					<li><a id="nav-home" href="#home">Главная</a></li>
-					<li><a id="nav-news" href="#news">Новости</a></li>
-					<li><a id="nav-links" href="#links">Ссылки</a></li>
-					<li><div id="selectLanguageDropdown" class="localizationTool"></div></li>
-				</ul>
-			</div>
-
-		</div> <!-- /END CONTAINER -->
-	</div>
-
-	<div class="container">
-		<div class="row home-contents">
-			<div class="col-md-12 col-sm-12">
-				<div class="only-logo">
-					<div class="navbar">
-						<div class="navbar-header">
-							<img src="images/logo.png" alt="">
+			<div class="row home-contents">
+				<div class="col-md-12 col-sm-12">
+					<div class="only-logo">
+						<div class="navbar">
+							<div class="navbar-header">
+								<img src="images/logo.png" alt="">
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="intro-section">
-					<!-- WELCOM MESSAGE -->
-					<h1 class="intro-title">EG UNION<br /></h1>
-					<h2 id="slogan" class="intro-subtitle">Свобода среди звезд!</h2>
+					<div class="intro-section">
+						<!-- WELCOM MESSAGE -->
+						<h1 class="intro-title">EG UNION<br /></h1>
+						<h2 id="slogan" class="intro-subtitle">Свобода среди звезд!</h2>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
-</div>
+	</div>
 </header>
 
 <!-- NEWS -->
-<section id="news" class="deep-dark-bg">
+<section id="news" class="content-section deep-dark-bg">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 left-align">
@@ -119,7 +116,7 @@
 		<div class="row">
 			<div class="col-md-4 col-sm-6">
 				<a href="#">
-					<div class="news-preview news-1">
+					<div class="news-preview news-1 image-link">
 						<h1>Экспидиция в разлом</h1>						
 						<div class="text">Группа ученных со станции Попович, готовится совершить экспидицию в разлом ужаса, и ищет добровольцев.</div>
 					</div>
@@ -127,7 +124,7 @@
 			</div>
 			<div class="col-md-4 col-sm-6">
 				<a href="#">
-					<div class="news-preview news-2">
+					<div class="news-preview news-2 image-link">
 						<h1>Война в Mamaragan</h1>						
 						<div class="text">Стало известно, что Первый флот уничтожил силы Mamaragan Coalition в районе станции Wolf Platform.</div>
 					</div>
@@ -135,7 +132,7 @@
 			</div>
 			<div class="col-md-4 col-sm-6">
 				<a href="#">
-					<div class="news-preview news-3">
+					<div class="news-preview news-3 image-link">
 						<h1>EGU в Mamaragan</h1>						
 						<div class="text">Общественные опросы в системе Mamaragan показывают, что фракция EG Union пользуется все большей популярностью у населения.</div>
 					</div>
@@ -143,7 +140,7 @@
 			</div>
 			<div class="col-md-4 col-sm-6">
 				<a href="#">
-					<div class="news-preview news-4">
+					<div class="news-preview news-4 image-link">
 						<h1>Победа в RTP!</h1>						
 						<div class="text">EG Pilots одержали сокрушительную победу в Rise to Power!</div>
 					</div>
@@ -151,7 +148,7 @@
 			</div>
 			<div class="col-md-4 col-sm-6">
 				<a href="#">
-					<div class="news-preview news-5">
+					<div class="news-preview news-5 image-link">
 						<h1>Захвачена станция</h1>						
 						<div class="text">Стало известно, что Первый флот уничтожил силы Mamaragan Coalition в районе станции Wolf Platform.</div>
 					</div>
@@ -159,7 +156,7 @@
 			</div>
 			<div class="col-md-4 col-sm-6">
 				<a href="#">
-					<div class="news-preview news-6">
+					<div class="news-preview news-6 image-link">
 						<h1>Новости за май</h1>						
 						<div class="text">На нашем новостном канале - Euryale Channel - вышел новостной дайджест за май месяц.</div>
 					</div>
@@ -174,54 +171,233 @@
 	</div>
 </section>
 
-<!-- LINKS -->
-<section class="links" id="links">
-<div class="color-overlay">
+<!-- ABOUT -->
+<section id="about" class="features">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-4">
-				<div class="buttons wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-					<a target="_blank" href="http://www.elite-games.ru/conference/viewtopic.php?p=3430819" class="btn btn-default btn-lg standard-button"><i class="fa fa-rocket"></i><span>Вступить в EG Pilots</span></a>
-				</div>
+		<div class="section-header wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
+			<!-- SECTION TITLE -->
+			<h2 id="about-header" class="white-text">О нас</h2>
+			<div class="colored-line">
 			</div>
-			<div class="col-md-4">
-				<div class="buttons wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-					<a target="_blank" href="https://discord.gg/0pjuKPKKVJo5p3Kd" class="btn btn-default btn-lg standard-button"><i class="icon_chat_alt"></i><span id="links-discord">Чат EG Pilots</span></a>
-				</div>
+			<div class="section-description">
+				<span id="about-message-1">EG&nbsp;Pilots - сообщество вольных пилотов в мире игры Elite: Dangerous.</span><br />
+				<span id="about-message-2-1">EG означает</span> <a target="_blank" href="http://www.elite-games.ru">Elite&nbsp;Games</a><span id="about-message-2-2"> - это объединивший нас сайт, посвященный играм на космическую тематику и всему что связано с космосом.</span><br />
+				<span id="about-message-3">Мы занимаемся развитием именной фракции EG&nbsp;Union, стремимся сделать её одной из Галактических Сил и добиться доминирования в Галактике!</span>
 			</div>
-			<div class="col-md-4">
-				<div class="buttons wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-					<a target="_blank" href="http://www.elite-games.ru" class="btn btn-default btn-lg standard-button"><i class="fa fa-globe"></i><span>Elite-Games.ru</span></a>
-				</div>
+			<div class="colored-line">
 			</div>
 		</div>
-
 		<div class="row">
-			<div class="col-md-4">
-				<div class="buttons wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-					<a target="_blank" href="http://inara.cz/wing/926" class="btn btn-default btn-lg standard-button"><i class="fa fa-group"></i><span id="links-inara">EGU на Inara</span></a>
+			<!-- FEATURES LEFT -->
+			<div class="col-md-4 col-sm-4 features-left wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+				<!-- FEATURE -->
+				<div class="feature">
+					<!-- ICON -->
+					<div class="icon-container">
+						<div class="icon">
+							<i class="icon_balance"></i>
+						</div>
+					</div>
+					<!-- FEATURE HEADING AND DESCRIPTION -->
+					<div class="feature-details">
+						<h4 id="about-traders-header" class="main-color">Мы - торговцы</h4>
+						<p id="about-traders-message">
+							В EG&nbsp;Union нашли пристанище сотни звездных торговцев со всех уголков обитаемой галактики. Удачное расположение на границе Сил делает наши системы привлекательными для предпринимателей всех уровней. Присоединяйся и мы покажем  тебе самые выгодные и безопасные торговые маршруты.
+						</p>
+					</div>
 				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="buttons wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-					<a target="_blank" href="https://vk.com/egunion" class="btn btn-default btn-lg standard-button"><i class="fa fa-vk"></i><span id="links-vk">EGU Вконтакте</span></a>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="buttons wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-					<a target="_blank" href="https://discord.gg/0x24VzuDjBsmtVyw" class="btn btn-default btn-lg standard-button"><i class="icon_chat_alt"></i><span id="links-diplomatic">Дипломатический канал EGU</span></a>
-				</div>
-			</div>
-		</div>
+				<!-- /END SINGLE FEATURE -->
 
-		<div class="row ">
-			<div class="col-md-12">
-				<img src="images/logo.png" alt="LOGO" class="responsive-img footer-logo">
-				<p class="copyright">©2016 All Rights Reserved</p>
+				<!-- FEATURE -->
+				<div class="feature">
+
+					<!-- ICON -->
+					<div class="icon-container">
+						<div class="icon">
+							<i class="icon_globe-2"></i>
+						</div>
+					</div>
+
+					<!-- FEATURE HEADING AND DESCRIPTION -->
+					<div class="feature-details">
+						<h4 id="about-explorers-header" class="main-color">Мы - исследователи</h4>
+						<p id="about-explorers-message">
+							Десятки наших исследователей регулярно отправляются в неизведанные уголки галактики. Присоединяйся к экспедициям, встреться с нашими пилотами за тысячи световых лет, впиши своё имя в зал славы первооткрывателей! Ad Astra, CMDR!
+						</p>
+					</div>
+
+				</div>
+				<!-- /END SINGLE FEATURE -->
+
+				<!-- FEATURE -->
+				<div class="feature">
+
+					<!-- ICON -->
+					<div class="icon-container">
+						<div class="icon">
+							<i class="icon_house_alt"></i>
+						</div>
+					</div>
+
+					<!-- FEATURE HEADING AND DESCRIPTION -->
+					<div class="feature-details">
+						<h4 id="about-builders-header" class="main-color">Мы - строители</h4>
+						<p id="about-builders-message">
+							Мы совместно строим наше будущее! Мы проводим экспансии в ближайшие системы и неуклонно расширяем свое влияние. Мы стараемся контролировать все объекты в принадлежащих нам системах. Под руководством  нашего мудрого Диктатора мы строим лучший мир!
+						</p>
+					</div>
+
+				</div>
+				<!-- /END SINGLE FEATURE -->
+
+			</div>
+			<!-- /END FEATURES LEFT -->
+
+			<!-- IMAGES -->
+			<div class="col-md-4 col-sm-4 hidden-xs">
+				<div class="image wow bounceIn animated" data-wow-offset="120" data-wow-duration="1.5s">
+					<img src="images/ships.png" alt="">
+				</div>
+			</div>
+
+			<!-- FEATURES RIGHT -->
+			<div class="col-md-4 col-sm-4 features-right wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+				<!-- FEATURE -->
+				<div class="feature">
+
+					<!-- ICON -->
+					<div class="icon-container">
+						<div class="icon">
+							<i class="fa fa-fighter-jet fa-rotate-270"></i>
+						</div>
+					</div>
+
+					<!-- FEATURE HEADING AND DESCRIPTION -->
+					<div class="feature-details">
+						<h4 id="about-fighters-header" class="main-color">Мы - воины</h4>
+						<p id="about-fighters-message">
+							Наша история это история войны. Войны с непрошеными гостями, войны за свою независимость, войны за свое будущее. Из этих войн мы вышли закаленными солдатами, готовыми по первому зову нашего вождя, стать единым флотом, сокрушающем всё на своем пути. Присоединяйся сейчас и мы дадим тебе самое главное - цель! Цель на войне и цель в жизни!
+						</p>
+					</div>
+
+				</div>
+				<!-- /END SINGLE FEATURE -->
+
+				<!-- FEATURE -->
+				<div class="feature">
+
+					<!-- ICON -->
+					<div class="icon-container">
+						<div class="icon">
+							<i class="icon_currency"></i>
+						</div>
+					</div>
+
+					<!-- FEATURE HEADING AND DESCRIPTION -->
+					<div class="feature-details">
+						<h4 id="about-hunters-header" class="main-color">Мы - охотники</h4>
+						<p id="about-hunters-message">
+							Положение наших систем делает их излюбленным местом обитания пиратов, контрабандистов и охотников за головами. Любишь кураж и звонкую монету - тебе точно к нам! Мы никогда не были против незаконной торговли. Мы всегда поддержим любого баунтихантера. Если ты пират - мы всегда тебе рады, особенно если за тебя назначена большая награда ;)
+						</p>
+					</div>
+
+				</div>
+
+				<!-- /END SINGLE FEATURE -->
+
+				<!-- FEATURE -->
+				<div class="feature">
+
+					<!-- ICON -->
+					<div class="icon-container">
+						<div class="icon">
+							<i class="fa fa-shield"></i>
+						</div>
+					</div>
+
+					<!-- FEATURE HEADING AND DESCRIPTION -->
+					<div class="feature-details">
+						<h4 id="about-protectors-header" class="main-color">Мы - защитники</h4>
+						<p id="about-protectors-message">
+							Любой присоединившийся к фракции EG&nbsp;Union - может рассчитывать на  нашу поддержку.  Мы обеспечиваем защиту и поддержку во всех наших системах. Мы выдвигаемся по первому зову к пилотам попавшим в "неприятную" ситуацию. Своих не бросаем! Никогда!
+						</p>
+					</div>
+
+				</div>
+				<!-- /END SINGLE FEATURE -->
+
+			</div>
+			<!-- /END FEATURES RIGHT -->
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-sm-4">
+				<a href="#" class="about-dictator image-link">
+					<h1>Наш лидер</h1>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<a href="#" class="about-advantages image-link">
+					<h1>Преимущества EGU</h1>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<a href="" class="about-hall-of-fame image-link">
+					<h1>Зал славы EGU</h1>					
+				</a>
 			</div>
 		</div>
 	</div>
-</div>
+</section>
+
+<!-- LINKS -->
+<section class="links" id="links">
+	<div class="color-overlay">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="buttons wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+						<a target="_blank" href="http://www.elite-games.ru/conference/viewtopic.php?p=3430819" class="btn btn-default btn-lg standard-button"><i class="fa fa-rocket"></i><span>Вступить в EG Pilots</span></a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="buttons wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+						<a target="_blank" href="https://discord.gg/0pjuKPKKVJo5p3Kd" class="btn btn-default btn-lg standard-button"><i class="icon_chat_alt"></i><span id="links-discord">Чат EG Pilots</span></a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="buttons wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+						<a target="_blank" href="http://www.elite-games.ru" class="btn btn-default btn-lg standard-button"><i class="fa fa-globe"></i><span>Elite-Games.ru</span></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					<div class="buttons wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+						<a target="_blank" href="http://inara.cz/wing/926" class="btn btn-default btn-lg standard-button"><i class="fa fa-group"></i><span id="links-inara">EGU на Inara</span></a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="buttons wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+						<a target="_blank" href="https://vk.com/egunion" class="btn btn-default btn-lg standard-button"><i class="fa fa-vk"></i><span id="links-vk">EGU Вконтакте</span></a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="buttons wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+						<a target="_blank" href="https://discord.gg/0x24VzuDjBsmtVyw" class="btn btn-default btn-lg standard-button"><i class="icon_chat_alt"></i><span id="links-diplomatic">Дипломатический канал EGU</span></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="row ">
+				<div class="col-md-12">
+					<img src="images/logo.png" alt="LOGO" class="responsive-img footer-logo">
+					<p class="copyright">©2016 All Rights Reserved</p>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 
 <!-- =========================
